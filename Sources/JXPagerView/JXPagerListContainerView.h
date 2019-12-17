@@ -45,6 +45,7 @@
 
 @property (nonatomic, strong, readonly) JXPagerListContainerCollectionView *collectionView;
 @property (nonatomic, weak) JXPagerMainTableView *mainTableView;
+@property (nonatomic, weak) id<JXPagerListContainerViewDelegate> delegate;
 
 - (instancetype)initWithDelegate:(id<JXPagerListContainerViewDelegate>)delegate NS_DESIGNATED_INITIALIZER;
 - (instancetype)init NS_UNAVAILABLE;
